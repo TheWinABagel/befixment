@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Befixment",
-  "description": "Fixes an annoying bug with bewitchment, which is no longer receiving updates with the current codebase",
+  "description": "Fixes a bug with bewitchment and a few issues with zenith",
   "authors": [
     "TheWinABagel"
   ],
@@ -33,6 +33,6 @@
     "bewitchment": ">=1.19-5"
   },
   "suggests": {
-    "zenith": "*"
+    "zenith": ">=0.4.3"
   }
 }

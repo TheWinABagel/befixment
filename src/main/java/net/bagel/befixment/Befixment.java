@@ -16,7 +16,7 @@ public class Befixment implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Befixment is befixing issues!");
+		LOGGER.info("Befixment be fixing issues!");
 		//This mod will most likely have more to it in the future
 		  if (FabricLoader.getInstance().isModLoaded("zenith")) {
 			  AppendZenithTooltips.init();
