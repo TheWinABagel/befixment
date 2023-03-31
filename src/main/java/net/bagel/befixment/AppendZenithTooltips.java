@@ -116,7 +116,7 @@ public class AppendZenithTooltips {
             if (itemstack.getItem() == EnchModule.MELONSHELF_ITEM) {
                 lines.add(Text.translatable("info.zenith.ench_stats").formatted(Formatting.GOLD));
                 lines.add(Text.translatable("info.zenith.eterna", "-1.00").formatted(Formatting.GREEN));
-                lines.add(Text.translatable("info.zenith.quanta", "+10.00").formatted(Formatting.RED));
+                lines.add(Text.translatable("info.zenith.quanta", "-10.00").formatted(Formatting.RED));
             }
             if (itemstack.getItem() == Items.WITHER_SKELETON_SKULL) {
                 lines.add(Text.translatable("info.zenith.ench_stats").formatted(Formatting.GOLD));
