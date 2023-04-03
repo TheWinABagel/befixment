@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "befixment",
   "version": "${version}",
-
+  "accessWidener" : "befixment.aw",
   "name": "Befixment",
   "description": "Fixes a bug with bewitchment and a few issues with zenith",
   "authors": [

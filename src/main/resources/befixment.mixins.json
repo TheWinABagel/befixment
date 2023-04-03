@@ -6,7 +6,8 @@
   "mixins": [
   ],
   "client": [
-    "TogglePressingForwardPacketMixin"
+    "TogglePressingForwardPacketMixin",
+    "EnchLibraryScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1

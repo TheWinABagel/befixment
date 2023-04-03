@@ -7,6 +7,7 @@ import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockEntityProvider;
 import net.minecraft.client.item.TooltipContext;
+import net.minecraft.client.option.GameOptions;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.text.Text;
@@ -135,6 +136,5 @@ public class AppendZenithTooltips {
             }
         });
     }
-
 
 }

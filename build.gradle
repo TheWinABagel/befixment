@@ -2,6 +2,9 @@ plugins {
 	id 'fabric-loom' version '1.0-SNAPSHOT'
 	id 'maven-publish'
 }
+loom {
+	accessWidenerPath = file("src/main/resources/befixment.aw")
+}
 
 sourceCompatibility = JavaVersion.VERSION_17
 targetCompatibility = JavaVersion.VERSION_17
