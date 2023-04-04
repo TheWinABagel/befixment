@@ -108,7 +108,7 @@ dependencies {
 	modRuntimeOnly "com.terraformersmc:modmenu:${mod_menu_version}"
 
 	modImplementation(include("io.github.fabricators_of_create.Porting-Lib:porting-lib:${project.port_lib_version}"))
-	modImplementation "com.github.mineblock11:Zenith:d448b27"
+	modCompileOnly "com.github.mineblock11:Zenith:d448b27"
 }
 
 processResources {

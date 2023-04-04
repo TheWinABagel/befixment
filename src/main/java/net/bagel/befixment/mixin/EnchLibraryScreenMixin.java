@@ -10,9 +10,8 @@ import safro.zenith.ench.library.EnchLibraryScreen;
 
 @Mixin(EnchLibraryScreen.class)
 public class EnchLibraryScreenMixin {
-
-//yes this is cursed im sorry you have to look at my terrible programming
-@Redirect(method = "keyPressed", at = @At(value = "INVOKE", target = "safro/zenith/ench/library/EnchLibraryScreen.isActiveAndMatches (Lnet/minecraft/client/option/KeyBinding;Lnet/minecraft/client/util/InputUtil$Key;)Z", remap = true))
+    //no this doesnt show up properly in ide. it works though so idgaf
+@Redirect(method = "method_25404", at = @At(value = "INVOKE", target = "safro/zenith/ench/library/EnchLibraryScreen.isActiveAndMatches (Lnet/minecraft/class_304;Lnet/minecraft/class_3675$class_306;)Z"))
 private boolean isActiveAndMatches(KeyBinding key, InputUtil.Key keyCode){
     int keyCodeInt = keyCode.getCode();
     InputUtil.Key invkeycode = key.getDefaultKey();
