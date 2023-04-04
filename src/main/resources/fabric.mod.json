@@ -19,8 +19,12 @@
   "entrypoints": {
     "main": [
       "net.bagel.befixment.Befixment"
+    ],
+    "jade": [
+      "net.bagel.befixment.zenith.compat.JadePlugin"
     ]
   },
+
   "mixins": [
     "befixment.mixins.json"
   ],

@@ -6,5 +6,6 @@
   "enchantment.zenith.knowledge.desc": "This enchantment does not work, do not use!",
   "enchantment.zenith.obliteration.desc": "This enchantment does not work, do not use!",
   "enchantment.zenith.splitting.desc": "This enchantment does not work, do not use!",
-  "info.befixment.broken": "This item does not work, do not use!"
+  "info.befixment.broken": "This item does not work, do not use!",
+  "config.jade.plugin_zenith.enchantment_power": "Enchanting Info"
 }

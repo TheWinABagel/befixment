@@ -109,6 +109,7 @@ dependencies {
 
 	modImplementation(include("io.github.fabricators_of_create.Porting-Lib:porting-lib:${project.port_lib_version}"))
 	modCompileOnly "com.github.mineblock11:Zenith:d448b27"
+	modImplementation "curse.maven:jade-324717:${jade_id}"
 }
 
 processResources {

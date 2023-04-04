@@ -1,4 +1,4 @@
-package net.bagel.befixment;
+package net.bagel.befixment.zenith;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.api.ModInitializer;
