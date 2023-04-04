@@ -134,6 +134,17 @@ public class AppendZenithTooltips {
             if (itemstack.getItem() == EnchModule.PRISMATIC_WEB) {
                 lines.add(Text.translatable("info.befixment.broken").formatted(Formatting.DARK_RED));
             }
+            if (itemstack.getItem() == Items.ZOMBIE_HEAD || itemstack.getItem() == Items.CREEPER_HEAD || itemstack.getItem() == Items.SKELETON_SKULL) {
+                lines.add(Text.translatable("info.zenith.ench_stats").formatted(Formatting.GOLD));
+                lines.add(Text.translatable("info.zenith.quanta", "+5.00").formatted(Formatting.RED));
+            } //too bad tags dont work for zenith this took me like 5 minutes too long
+            if (itemstack.getItem() == Items.CANDLE || itemstack.getItem() == Items.WHITE_CANDLE || itemstack.getItem() == Items.ORANGE_CANDLE || itemstack.getItem() == Items.MAGENTA_CANDLE
+               || itemstack.getItem() == Items.LIGHT_BLUE_CANDLE || itemstack.getItem() == Items.YELLOW_CANDLE || itemstack.getItem() == Items.LIME_CANDLE || itemstack.getItem() == Items.PINK_CANDLE
+               || itemstack.getItem() == Items.GRAY_CANDLE || itemstack.getItem() == Items.LIGHT_GRAY_CANDLE || itemstack.getItem() == Items.CYAN_CANDLE || itemstack.getItem() == Items.PURPLE_CANDLE
+               || itemstack.getItem() == Items.BLUE_CANDLE || itemstack.getItem() == Items.BROWN_CANDLE || itemstack.getItem() == Items.GREEN_CANDLE || itemstack.getItem() == Items.RED_CANDLE || itemstack.getItem() == Items.BLACK_CANDLE) {
+                lines.add(Text.translatable("info.zenith.ench_stats").formatted(Formatting.GOLD));
+                lines.add(Text.translatable("info.zenith.arcana", "+1.25").formatted(Formatting.DARK_PURPLE));
+            }
         });
     }
 
